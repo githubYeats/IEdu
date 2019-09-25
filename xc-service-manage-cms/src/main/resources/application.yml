@@ -1,0 +1,10 @@
+server:
+  port: 31001 # 服务端口
+
+spring:
+  application:
+    name: xc-service-manage-cms # 应用名称
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: xc_cms # 使用的mongodb数据库

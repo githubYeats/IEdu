@@ -13,8 +13,8 @@ import java.util.Date;
  */
 @Data
 @ToString
-@Entity
-@Table(name = "xc_task")
+@Entity // JPA注解
+@Table(name = "xc_task") // JPA注解
 //@GenericGenerator(name = "jpa-assigned", strategy = "assigned")
 @GenericGenerator(name = "jpa-uuid", strategy = "uuid")
 public class XcTask implements Serializable {

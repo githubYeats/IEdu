@@ -16,7 +16,7 @@ public class BaseController {
 
     protected HttpSession session;
 
-    @ModelAttribute
+    @ModelAttribute // spring-web注解
     public void setReqAndRes(HttpServletRequest request, HttpServletResponse response) {
 
         this.request = request;

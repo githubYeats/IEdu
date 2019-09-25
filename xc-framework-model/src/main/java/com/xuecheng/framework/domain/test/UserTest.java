@@ -13,7 +13,7 @@ import java.util.Date;
  */
 @Data
 @ToString
-@Document(collection = "user_test")
+@Document(collection = "user_test") // mongodb注解
 public class UserTest {
 
 
